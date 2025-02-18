@@ -27,7 +27,7 @@
     </header>
 
     <!-- Sharingan image -->
-    <img src="sharingan.jfif" alt="I am an image and I'm all by myself" class="purple-star">
+    <img src="sharingan.jfif" alt="I am an image and I'm all by myself" class="sharingan">
     
     <p>I am division with class equal to page-content that encloses all other division elements below</p>
 
