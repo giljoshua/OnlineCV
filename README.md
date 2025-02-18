@@ -7,8 +7,8 @@
             padding: 20px;
         }
         .purple-star {
-            width: 100px;
-            height: 100px;
+            width: 50px;
+            height: 50px;
             margin: 20px 0;
         }
     </style>
