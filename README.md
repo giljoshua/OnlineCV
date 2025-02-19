@@ -1,37 +1,43 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        li::before {
+            content: "• ";
+            color: black;
+        }
+        .act1 {
+            color: red;
+        }
+        .act2 {
+            color: blue;
+        }
+        .act3 {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <p>My landing page of my activity.</p>
     <ul>
-        <li><a href="#about">about</a></li>
-        <li><a href="#education">I am Education link and my href value is #education</a></li>
-        <li><a href="#skills">education</a></li>
-        <li><a href="#portfolio">portfolio</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="act1.html" class="act1">act1</a></li>
+        <li><a href="act2.html" class="act2">act2</a></li>
+        <li><a href="act3.html" class="act3">act3</a></li>
     </ul>
-</header>
-<link rel="stylesheet" href="mystyle.css">
-<link rel="stylesheet" href="normalize.css" media="screen">
-<link rel="stylesheet" href="resets.css" media="screen">
-<link rel="stylesheet" href="styles.css" media="screen">
-
-<!-- Sharingan image -->
-<img src="sharingan.jfif" alt="I am an image and I'm all by myself" class=" sharingan">
-
-<p>I am division with class equal to page-content that encloses all other division elements below</p>
-
-<div class="page-content">
-    <div class="card" id="about">
-    <p class="card-header">About</p>
-    <p class="card-body">Hello! Tell us about yourself.</p>
-    </div>
-    <div class="card" id="education">
-    <p class="card-header">Education</p>
-    <p class="card-body">Tell us about your education</p>
-    </div>
-    <div class="card" id="skills">
-    <p class="card-header">Skills</p>
-    <p class="card-body">Tell us about your IT Skills>
-    </div>
-    <div class="card" id="portfolio">
-    <p class="card-header">Portfolio</p>
-    <p class="card-body">Share your previous IT projects</p>
-    </div>
-    </div>
+</body>
+</html>
