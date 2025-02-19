@@ -1,51 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Personal CV</title>
-    <style>
-        .page-content {
-            padding: 20px;
-        }
-        .sharingan  {
-            width: 100px;
-            height: 100px;
-            margin: 20px 0;
-        }
-    </style>
-</head>
-<body>
-    <p>I am Header with unordered list of hyperlinks</p>
-    
-    <header>
-        <ul>
-            <li><a href="#about">I am About link and my href value is #about</a></li>
-            <li><a href="#education">I am Education link and my href value is #education</a></li>
-            <li><a href="#skills">I am Skills link and my href value is #skills</a></li>
-            <li><a href="#portfolio">I am Portfolio link and my href value is #portfolio</a></li>
-            <li><a href="#contact">I am Contact link and my href value is #contact</a></li>
-        </ul>
-    </header>
+<header>
+    <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href="#education">I am Education link and my href value is #education</a></li>
+        <li><a href="#skills">education</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
+</header>
+<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="normalize.css" media="screen">
+<link rel="stylesheet" href="resets.css" media="screen">
+<link rel="stylesheet" href="styles.css" media="screen">
 
-    <!-- Sharingan image -->
-    <img src="sharingan.jfif" alt="I am an image and I'm all by myself" class=" sharingan">
-    
-    <p>I am division with class equal to page-content that encloses all other division elements below</p>
+<!-- Sharingan image -->
+<img src="sharingan.jfif" alt="I am an image and I'm all by myself" class=" sharingan">
 
-    <div class="page-content">
-        <!-- Main heading -->
-        <h1>Hello! I am a text with the largest heading</h1>
+<p>I am division with class equal to page-content that encloses all other division elements below</p>
 
-        <!-- Content sections -->
-        <div id="about">I am division with id equal to about</div>
-        <div id="education">I am division with id equal to education</div>
-        <div id="skills">I am division with id equal to skills</div>
-        <div id="portfolio">I am division with id equal to portfolio</div>
-        <div id="contact">I am division with id equal to contact</div>
-
-        <!-- Footer -->
-        <footer>I am a footer the last section of this page</footer>
+<div class="page-content">
+    <div class="card" id="about">
+    <p class="card-header">About</p>
+    <p class="card-body">Hello! Tell us about yourself.</p>
     </div>
-</body>
-</html>
- 
- 
+    <div class="card" id="education">
+    <p class="card-header">Education</p>
+    <p class="card-body">Tell us about your education</p>
+    </div>
+    <div class="card" id="skills">
+    <p class="card-header">Skills</p>
+    <p class="card-body">Tell us about your IT Skills>
+    </div>
+    <div class="card" id="portfolio">
+    <p class="card-header">Portfolio</p>
+    <p class="card-body">Share your previous IT projects</p>
+    </div>
+    </div>
