@@ -1,0 +1,75 @@
+/* Centering the table container */
+#tableContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Styling the table */
+#coursesTable {
+    width: 85%;
+    border-collapse: collapse;
+    background: linear-gradient(135deg, #991b1b, #7f1d1d);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Table headers */
+#coursesTable th {
+    background: linear-gradient(135deg, #ff4d4d, #cc0000);
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Table rows styling */
+#coursesTable td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Alternating row colors for better readability */
+#coursesTable tr:nth-child(even) {
+    background: rgba(255, 0, 0, 0.3);
+}
+
+#coursesTable tr:nth-child(odd) {
+    background: rgba(70, 0, 0, 0.7);
+}
+
+/* Hover effect for table rows */
+#coursesTable tr:hover {
+    background: rgba(255, 0, 0, 0.5);
+    transition: background 0.3s ease-in-out;
+}
+
+/* Rounded corners on first and last column */
+#coursesTable th:first-child, #coursesTable td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#coursesTable th:last-child, #coursesTable td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #coursesTable {
+        width: 95%;
+    }
+    #coursesTable th, #coursesTable td {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
